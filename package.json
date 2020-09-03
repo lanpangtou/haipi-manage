@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
+    "css-loader": "^4.2.0",
+    "element-ui": "^2.13.2",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "qs": "^6.9.4",
+    "style-loader": "^1.2.1",
+    "view-design": "^4.3.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.3.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
